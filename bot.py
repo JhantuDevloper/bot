@@ -57,7 +57,7 @@ async def on_message(message):
     await bot.process_commands(message)
 
 # Bot ko run karne ke liye (Token environment variable se aayega)
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("MTUxOTM1MjE1NDA5NDE3ODQ4NQ.Gaar7R.p7oBUwOTKgdazgbltbRI4XFfRj_CiDEY62Yl8A")
 if TOKEN:
     bot.run(TOKEN)
 else:
